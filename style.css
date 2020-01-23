@@ -18,6 +18,7 @@
     height: 50px;
     font-size: 30px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -35,4 +36,10 @@ input {
 
 .orange {
     background-color: orange;
+}
+
+.weekday-output, .leap-output {
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
 }

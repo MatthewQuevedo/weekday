@@ -9,13 +9,17 @@
     <body>
         <div class="box">
             <button class="button-wide red">Weekday</button><br>
-            <input type="number" placeholder="Month"><br>
-            <input type="number" placeholder="Day"><br>
-            <input type="number" placeholder="Year"><br>
+            <input type="number" placeholder="Month" id="month"><br>
+            <input type="number" placeholder="Day" id="day"><br>
+            <input type="number" placeholder="Year" id="year"><br>
+            <button class="button-narrow" id="searchweekday">Search</button>
+            <div class="weekday-output" id="weekdayoutput"></div>
             <button class="button-wide orange">Leap Year</button><br>
-            <input type="number" placeholder="Year"><br>
-            <button class="button-narrow">Search</button>
+            <input type="number" placeholder="Year" id="leap"><br>
+            <button class="button-narrow" id="searchleap">Search</button>
+            <div class="leap-output" id="leapoutput"></div>
+            
         </div>
-        
+        <script src="app.js"></script>
     </body>
 </html>
